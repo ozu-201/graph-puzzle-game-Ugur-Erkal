@@ -1,0 +1,316 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: Exam_CPP
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/cmake-build-debug/
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target Exam_CPP
+
+
+#############################################
+# Order-only phony target for Exam_CPP
+
+build cmake_object_order_depends_target_Exam_CPP: phony || CMakeFiles/Exam_CPP.dir
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Graph/Graph.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Graph/Graph.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Graph/Graph.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array/Graph
+
+build CMakeFiles/Exam_CPP.dir/src/General/AbstractGraph.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/General/AbstractGraph.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/General/AbstractGraph.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/General
+
+build CMakeFiles/Exam_CPP.dir/src/General/Path.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/General/Path.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/General/Path.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/General
+
+build CMakeFiles/Exam_CPP.dir/src/Array/DisjointSet.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/DisjointSet.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/DisjointSet.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Element.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Element.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Element.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Hash.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Hash.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Hash.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Queue.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Queue.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Queue.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Set.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Set.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Set.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Stack.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Stack.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Stack.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/DHeap.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Heap/DHeap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Heap/DHeap.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array/Heap
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/Heap.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Heap/Heap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Heap/Heap.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array/Heap
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/HeapNode.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Heap/HeapNode.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Heap/HeapNode.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array/Heap
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/MaxDHeap.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Heap/MaxDHeap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Heap/MaxDHeap.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array/Heap
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/MaxHeap.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Heap/MaxHeap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Heap/MaxHeap.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array/Heap
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/MinDHeap.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Heap/MinDHeap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Heap/MinDHeap.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array/Heap
+
+build CMakeFiles/Exam_CPP.dir/src/Array/Heap/MinHeap.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Array/Heap/MinHeap.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Array/Heap/MinHeap.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Array/Heap
+
+build CMakeFiles/Exam_CPP.dir/src/Tree/Tree.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Tree/Tree.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Tree/Tree.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Tree
+
+build CMakeFiles/Exam_CPP.dir/src/Tree/TreeNode.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Tree/TreeNode.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Tree/TreeNode.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Tree
+
+build CMakeFiles/Exam_CPP.dir/src/List/Graph/Edge.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/List/Graph/Edge.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/List/Graph/Edge.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/List/Graph
+
+build CMakeFiles/Exam_CPP.dir/src/List/Graph/EdgeList.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/List/Graph/EdgeList.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/List/Graph/EdgeList.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/List/Graph
+
+build CMakeFiles/Exam_CPP.dir/src/List/DoublyLinkedList.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/List/DoublyLinkedList.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/List/DoublyLinkedList.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/List
+
+build CMakeFiles/Exam_CPP.dir/src/List/DoublyNode.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/List/DoublyNode.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/List/DoublyNode.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/List
+
+build CMakeFiles/Exam_CPP.dir/src/List/Hash.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/List/Hash.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/List/Hash.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/List
+
+build CMakeFiles/Exam_CPP.dir/src/List/LinkedList.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/List/LinkedList.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/List/LinkedList.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/List
+
+build CMakeFiles/Exam_CPP.dir/src/List/Node.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/List/Node.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/List/Node.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/List
+
+build CMakeFiles/Exam_CPP.dir/src/List/Queue.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/List/Queue.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/List/Queue.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/List
+
+build CMakeFiles/Exam_CPP.dir/src/List/Stack.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/List/Stack.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/List/Stack.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/List
+
+build CMakeFiles/Exam_CPP.dir/src/Tree/Queue.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Tree/Queue.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Tree/Queue.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Tree
+
+build CMakeFiles/Exam_CPP.dir/src/Tree/Stack.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Tree/Stack.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Tree/Stack.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Tree
+
+build CMakeFiles/Exam_CPP.dir/src/Tree/Element.cpp.o: CXX_COMPILER__Exam_CPP_Debug /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/src/Tree/Element.cpp || cmake_object_order_depends_target_Exam_CPP
+  DEP_FILE = CMakeFiles/Exam_CPP.dir/src/Tree/Element.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++20
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/Exam_CPP.dir/src/Tree
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target Exam_CPP
+
+
+#############################################
+# Link the static library libExam_CPP.a
+
+build libExam_CPP.a: CXX_STATIC_LIBRARY_LINKER__Exam_CPP_Debug CMakeFiles/Exam_CPP.dir/src/Array/Graph/Graph.cpp.o CMakeFiles/Exam_CPP.dir/src/General/AbstractGraph.cpp.o CMakeFiles/Exam_CPP.dir/src/General/Path.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/DisjointSet.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Element.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Hash.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Queue.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Set.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Stack.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Heap/DHeap.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Heap/Heap.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Heap/HeapNode.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Heap/MaxDHeap.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Heap/MaxHeap.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Heap/MinDHeap.cpp.o CMakeFiles/Exam_CPP.dir/src/Array/Heap/MinHeap.cpp.o CMakeFiles/Exam_CPP.dir/src/Tree/Tree.cpp.o CMakeFiles/Exam_CPP.dir/src/Tree/TreeNode.cpp.o CMakeFiles/Exam_CPP.dir/src/List/Graph/Edge.cpp.o CMakeFiles/Exam_CPP.dir/src/List/Graph/EdgeList.cpp.o CMakeFiles/Exam_CPP.dir/src/List/DoublyLinkedList.cpp.o CMakeFiles/Exam_CPP.dir/src/List/DoublyNode.cpp.o CMakeFiles/Exam_CPP.dir/src/List/Hash.cpp.o CMakeFiles/Exam_CPP.dir/src/List/LinkedList.cpp.o CMakeFiles/Exam_CPP.dir/src/List/Node.cpp.o CMakeFiles/Exam_CPP.dir/src/List/Queue.cpp.o CMakeFiles/Exam_CPP.dir/src/List/Stack.cpp.o CMakeFiles/Exam_CPP.dir/src/Tree/Queue.cpp.o CMakeFiles/Exam_CPP.dir/src/Tree/Stack.cpp.o CMakeFiles/Exam_CPP.dir/src/Tree/Element.cpp.o
+  ARCH_FLAGS = -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/Exam_CPP.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = libExam_CPP.a
+  TARGET_PDB = Exam_CPP.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP -B/Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build Exam_CPP: phony libExam_CPP.a
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/olcay/Dropbox/ozyegincourses/CS201/Spring2023/Exam-CPP/cmake-build-debug
+
+build all: phony libExam_CPP.a
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
